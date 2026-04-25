@@ -3,7 +3,7 @@
 
 A full-stack, responsive appointment booking system built with pure PHP, MySQL, and Tailwind CSS. This project demonstrates a complete integration of frontend UI, backend API routing, and secure database management without the use of heavy backend frameworks.
 
-## ✨ Features<img width="1919" height="1078" alt="image" src="https://github.com/user-attachments/assets/3e43e70d-1275-4978-92a8-040e3aafb5f3" />
+## ✨ Features
 
 * **Modern UI:** Designed with a stunning, dark-themed "Glassmorphism" aesthetic using Tailwind CSS.
 * **Asynchronous Data (AJAX):** Fetches and submits data instantly using JavaScript `fetch()`, preventing full page reloads.
