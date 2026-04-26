@@ -1,5 +1,5 @@
 # 📅 Elite Appointment Booking System
-<img width="1919" height="1079" alt="preview" src="https://github.com/user-attachments/assets/852504b4-b003-4c1f-a838-596cd976f803" />
+<img width="1919" height="1079" alt="preview" src="https://github.com/user-attachments/assets/0b08c926-7c06-4888-9cb4-d617fc7badf5" />
 
 A full-stack, responsive appointment booking system built with pure PHP, MySQL, and Tailwind CSS. This project demonstrates a complete integration of frontend UI, backend API routing, and secure database management without the use of heavy backend frameworks.
 
