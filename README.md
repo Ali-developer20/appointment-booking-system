@@ -16,7 +16,7 @@ A full-stack, responsive appointment booking system built with pure PHP, MySQL, 
 * **Frontend:** HTML5, Vanilla JavaScript, Tailwind CSS (via CDN)
 * **Backend:** Pure PHP (No frameworks)
 * **Database:** MySQL
-* **Environment:** XAMPP / Laragon (Localhost)
+* **Environment:** Laragon (Localhost)
 
 ## 🚀 How to Run the Project Locally
 
