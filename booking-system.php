@@ -164,6 +164,24 @@
                     listContainer.innerHTML = '<p class="text-red-400 text-center mt-10">Failed to load API data.</p>';
                 });
         }
+        function deleteBooking(id) {
+    if (!confirm("Are you sure you want to cancel this appointment?")) return;
+
+    fetch('api/delete_booking.php', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id: id })
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.status === 'success') {
+            fetchBookings(); // Refresh the list instantly
+        } else {
+            alert(data.message);
+        }
+    })
+    .catch(error => console.error('Error:', error));
+}
     </script>
 </body>
 </html>
