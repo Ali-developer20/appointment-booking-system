@@ -6,10 +6,11 @@ A full-stack, responsive appointment booking system built with pure PHP, MySQL, 
 ## ✨ Features
 
 * **Modern UI:** Designed with a stunning, dark-themed "Glassmorphism" aesthetic using Tailwind CSS.
-* **Asynchronous Data (AJAX):** Fetches and submits data instantly using JavaScript `fetch()`, preventing full page reloads.
-* **RESTful API Endpoints:** Custom PHP endpoints for handling `GET` and `POST` requests via JSON.
+* **Appointment Management:** Users can instantly cancel/delete their upcoming appointments with a single click, updating the UI dynamically.
+* **Asynchronous Data (AJAX):** Fetches, submits, and deletes data instantly using Vanilla JavaScript `fetch()`, completely eliminating full page reloads.
+* **RESTful API Architecture:** Custom PHP endpoints cleanly separated for retrieving (`GET`), creating (`POST`), and deleting (`POST`) records via JSON.
 * **Secure Database Handling:** Utilizes PHP Prepared Statements to prevent SQL injection attacks.
-* **Instant Validation:** UI feedback for successful bookings and error handling.
+* **Instant Validation:** Clean UI feedback for successful bookings, deletions, and error handling.
 
 ## 💻 Tech Stack
 * **Frontend:** HTML5, Vanilla JavaScript, Tailwind CSS (via CDN)
